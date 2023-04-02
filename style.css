@@ -1,0 +1,544 @@
+html {
+    font-family: Epilogue;
+}
+
+body {
+    background-color: #FAF8F6;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 16px 0px 16px;
+
+}
+
+#top_button {
+    width: 182px;
+    height: 48px;
+    background-color: transparent;
+    border: 1px solid #172339;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.14px;
+    color: #172339;
+}
+
+#curved_line {
+    width: 151.47px;
+    height: 19px;
+    margin: 56px 53.53px 0px 170px;
+}
+
+#heroimgp {
+    display: none;
+}
+
+.herotext {
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.527778px;
+    color: #172339;
+    margin: 8.32px 16px 0px 16px;
+}
+
+#herop {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0888889px;
+    color: #49566D;
+    margin: 32px 16px 0px 16px;
+}
+
+#herobutton {
+    background: #172339;
+    border-radius: 6px;
+    width: 256px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    margin: 32px 103.5px 0px 15.5px;
+}
+
+#heroimg {
+    border-radius: 15px;
+    max-width: 343px;
+    margin: 55.68px auto 0px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.promoheader {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #172339;
+
+}
+
+.promop {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #49566D;
+}
+
+.item {
+    margin-top: 32px;
+}
+
+#jeremy {
+    width: 252px;
+    height: 402px;
+    padding-top: -400px;
+    margin-top: -181px;
+}
+
+#blur {
+    display: none;
+}
+
+
+#jeremyp {
+    width: 343;
+    height: 402px;
+    margin: 237px 16px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    background: #172339;
+    border-radius: 15px;
+    width: 100%;
+    height: 748px;
+    position: relative;
+}
+
+
+#curvedline2 {
+    width: 49.27px;
+    height: 40px;
+    margin: 40px auto 0px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contenttext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#works {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.416667px;
+    color: #FAF8F6;
+    margin-top: 37px;
+}
+
+#work {
+    font-weight: 700;
+}
+
+#really {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.09px;
+    color: #F3EDE7;
+    margin-top: 40px;
+    max-width: 573px;
+}
+
+#robin {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    margin-top: 40px;
+}
+
+#cmo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #F3EDE7;
+}
+
+footer {
+    width: 100%;
+    height: 420px;
+    background: #F3EDE7;
+    margin-top: -151px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+}
+
+#copyright {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+    color: #49566D;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+#contact1 {
+    margin-right: 28px;
+}
+
+#contact2 {
+    margin-right: 28px;
+}
+
+#bottomlogo {
+    margin-top: 56px;
+}
+
+@media (min-width:768px) {
+    header {
+        margin-top: 40px;
+        margin-left: 39px;
+        margin-right: 40px;
+        max-width: 1400px;
+
+    }
+
+    #herotxt {
+        max-width: 533px;
+        margin-left: 39px;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.777778px;
+        color: #172339;
+
+    }
+
+    #herop {
+        letter-spacing: 0.0888889px;
+        margin-left: 39px;
+        width: 350px;
+    }
+
+    .content {
+        max-width: 689px;
+        height: 748px;
+        position: relative;
+        margin: auto;
+    }
+
+    #footer {
+        height: 640px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 1400px;
+        margin: auto;
+        padding-top: 0px;
+    }
+
+
+    #bottomlogo {
+        margin-top: -10px;
+    }
+
+    #promo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 1700px;
+        margin: auto;
+        margin-top: 24px;
+    }
+
+    #heroimgp {
+        display: inline;
+        width: 281px;
+        height: 482px;
+        background: radial-gradient(100% 100% at 100% 100%, #A060FF 0%, #CB30E3 33.18%, #FFA84E 100%);
+        border-radius: 15px;
+        margin: -84px 40px 0px -120px;
+    }
+
+    #heroimg {
+        display: none;
+    }
+
+    #tablet {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #ontop {
+        position: relative;
+    }
+
+    #curved_line {
+        width: 231.19px;
+        height: 29px;
+        margin: 122px 0px 0px 262px;
+        position: relative;
+    }
+
+    #herobutton {
+        margin-left: 39px;
+    }
+
+    #jeremy {
+        margin-top: -121px;
+    }
+
+    #contact {
+        margin-top: 500px;
+    }
+
+    #copyright {
+        margin-top: 533px;
+    }
+
+    #bottomlogo {
+        margin-top: 486px;
+    }
+
+    footer {
+        width: 100%;
+        height: 640px;
+        background: #F3EDE7;
+        margin-top: -470px;
+    }
+
+    #jeremyp {
+        background-image: url(./suite-landing-page/suite-landing-page/starter-code/assets/pattern-blur.svg);
+        background-repeat: no-repeat;
+        background-size: 402px;
+        background-position-y: -60px;
+        background-position-x: center;
+    }
+
+
+}
+
+@media (min-width:1440px) {
+    header {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1100px;
+
+    }
+
+    #desktop {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #tablet {
+        margin-right: 0px;
+    }
+
+    #promo {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 33px;
+        margin-left: 56px;
+        margin-top: -10px;
+    }
+
+    .promoheader {
+        text-align: left;
+
+
+    }
+
+    .promop {
+        text-align: left;
+    }
+
+    .content {
+        max-width: 1109px;
+        height: 545px;
+        position: relative;
+        margin-top: -50px;
+    }
+
+    #jeremyp {
+        display: flex;
+        flex-direction: row;
+        background-image: none;
+    }
+
+    #heroimgp {
+        display: inline;
+        width: 350px;
+        height: 600px;
+    }
+
+    #curved_line {
+        width: 287px;
+        height: 36px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 200px;
+
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 78px;
+        letter-spacing: -1px;
+        color: #172339;
+    }
+
+    #herotxt {
+        max-width: 635px;
+    }
+
+    #jeremy {
+        width: 359.81px;
+        height: 589.56px;
+        padding-top: 220px;
+        padding-left: 80px;
+        background-image: url(./suite-landing-page/suite-landing-page/starter-code/assets/pattern-blur.svg);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 300px;
+        background-size: 550px;
+    }
+
+    #footer {
+        max-width: 1500px;
+        height: 464px;
+    }
+
+    footer {
+        height: 464px;
+        margin-top: -270px;
+        padding-bottom: -270px;
+    }
+
+    #contact {
+        margin-top: 270px;
+    }
+
+    #copyright {
+        margin-top: 323px;
+    }
+
+    #bottomlogo {
+        margin-top: 256px;
+    }
+
+    #works {
+        text-align: left;
+        width: 299px;
+        height: 56px;
+        margin-left: 0px;
+    }
+
+
+    #really {
+        text-align: left;
+        width: 350px;
+        height: 175px;
+    }
+
+    #robin {
+        text-align: left;
+    }
+
+    #cmo {
+        text-align: left;
+    }
+
+    #contenttext {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 80px;
+        margin-left: 20px;
+
+    }
+
+    #curvedline2 {
+        width: 64.04px;
+        height: 52px;
+        padding-bottom: 70px;
+        margin: 40px;
+
+    }
+
+    #herobutton:hover {
+        background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+        border-radius: 6px;
+        border-width: 0px;
+    }
+
+
+}
